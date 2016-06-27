@@ -67,7 +67,7 @@ void SearchFile(char *dir)
 				strcat(path3,name1);
 				// path2 is the oldname, path is the newname
 				if   (rename(path2,path3)   ==   0) 
-                   printf( "Have renamed:   %s\n ",path3); 
+                   printf( "Have renamed:   %s\n",path3); 
                 else
 					// Print the last system error messages
                    perror( "Rename Error!!!"); 
